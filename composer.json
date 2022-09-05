@@ -1,5 +1,5 @@
 {
-  "name": "cmfstore/mediawiki-ui",
+  "name": "cmfstore/mediawiki-ext-ui",
   "type": "mediawiki-extension",
   "description": "MediaWiki UI extension.",
   "license": "MIT",
@@ -23,13 +23,13 @@
     }
   ],
   "support": {
-    "issues": "https://github.com/cmfstore/mediawiki-theme/issues",
-    "source": "https://github.com/cmfstore/mediawiki-theme"
+    "issues": "https://github.com/cmfstore/mediawiki-ext-theme/issues",
+    "source": "https://github.com/cmfstore/mediawiki-ext-theme"
   },
   "require": {
     "php": ">=7.2",
     "composer/installers": "^1.0.1",
-    "cmfstore/mediawiki-kernel": "*"
+    "cmfstore/mediawiki-ext-kernel": "*"
   },
   "autoload": {
     "classmap": [
